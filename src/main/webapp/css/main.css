@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body{
+	margin: 0px;
+	width: 1920px;
+}
+/* 头部分*/
+header{
+	overflow: hidden;
+}
+.header_midle_img {
+	height: 54px;
+	background-color: #ececec;
+	clear: right;
+	width: 1920px;
+	margin: 0px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-top: 14px;
+}
+
+.header_midle_img>img {
+	position: absolute;
+	top: 2px;
+	left: 30px;
+}
+
+#first_li {
+	margin-left: 965px;
+}
+.header_midle_img>ul{
+	overflow: hidden;
+}
+.header_midle_img>ul>li {
+	font-family: Microsoft YaHei;
+	font-size: 16px;
+	float: left;
+	margin-left: 38px;
+	list-style: none;
+	text-align: center;
+}
+
+.header_midle_img>ul>li>a {
+	color: #253465;
+	text-decoration: none;
+}
+/* 内容部分 */
+article{
+	padding: 20px,20px,0px,20px;
+}
+article>div>div{
+	float: left;	
+}

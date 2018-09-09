@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/index_header.css">
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+	<div id="back">
+		<a href="#text"><img src="imgs/img6_31.png"></a>
+	</div>
+	<header class="header_img">
+		<div class="header_midle_img">
+			<img alt="" src="index_img/logo_a.png">
+			<ul>
+				<li id="first_li"><a href="#">概览</a></li>
+				<li><a href="#">功能</a></li>
+				<li><a href="#">角色</a></li>
+				<li><a href="#">场景</a></li>
+				<li><a href="#">案例</a></li>
+				<li><a href="#">移动</a></li>
+				<li><a href="#">集成</a></li>
+				<li><a href="#">开发平台</a></li>
+			</ul>
+		</div>
+		<script src="js/jquery-1.9.1.js"></script>
+		<script>
+			$(".nav_m").click(function() {
+				$(".nav_zs").toggleClass("xiaoguo")
+			})
+		</script>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="index_img/img1.png">
+				</div>
+				<div class="swiper-slide">
+					<img src="index_img/img2.png">
+				</div>
+				<div class="swiper-slide">
+					<img src="index_img/img4.png">
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+
+		<!-- Swiper JS -->
+		<script src="js/swiper.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination : '.swiper-pagination',
+				paginationClickable : true,
+				nextButton : '.swiper-button-next',
+				prevButton : '.swiper-button-prev',
+				loop : true,
+				autoplay : 1500,
+				autoplayDisableOnInteraction : false
+			});
+		</script>
+	</header>
+	<article>
+		<div id="1">
+			<div class="article_content_img">
+				<div class="article_content_img1">
+					<img alt="" src="index_img/img66_03.png">
+				</div>
+				<div class="article_content_img2">
+					<img alt="" src="index_img/img66_05.png">
+				</div>
+				<div class="article_content_img3">
+					<img alt="" src="index_img/img66_10.png">
+				</div>
+				<div class="article_content_img4">
+					<img alt="" src="index_img/img66_12.png">
+				</div>
+			</div>
+			<div class="article_1_content">
+				<img alt="" src="index_img/img6.png">
+				<p style="font-size: 40px;margin: 0px;">EKP智慧办公平台</p>
+				<p style="font-size: 20px;line-height: 32px; text-indent: 2em;text-align: left;">
+					EKP智慧办公办公平台以提<br>升组织产能为目标 ,以战略能力,<br>协作关系,组织知识,企业文化等
+				</p>
+			</div>
+		</div>
+		<div id="2">
+			<div class="article_2_content">
+				<img src="index_img/img6.png">
+				<p style="font-size: 40px;margin: 0px,54px,0px,0px; line-height: 24px;">一站式的全业务应用体验</p>
+				<p style="font-size: 20px;line-height: 35px; letter-spacing: 4px;">
+					构建以用户为中心的统一门户，实现<br>企业业务场景化，深度整合业务与管<br> 理系统，构建完整的一站式企业业务<br>应用平台
+				</p>
+			</div>
+			<div class="article_content2_img">
+				<img src="imgs/img6_28.png">
+			</div>
+		</div>
+		<div id="3">
+			<div class="article_content3_img">
+				<img src="imgs/img6_35.png">
+			</div>
+			<div class="article_3_content">
+				<img src="index_img/img6.png">
+				<p style="font-size: 40px;margin: 0px;">统一的流程管理平台</p>
+				<p style="font-size: 20px;line-height: 32px;">
+					遵循国际标准BPMN2.0，打造企业独立<br>BPM流程引擎无代码配置实现自由流、<br>
+					分支、并行、流程镶套及与已构系统的<br>流程集成等应用，构建完美的企业权责<br>管理体系
+				</p>
+			</div>
+		</div>
+		<div id="4">
+			<div class="article_4_content">
+				<img src="index_img/img6.png">
+				<p style="font-size: 40px;margin: 0px;color: #676767;">一站式的全业务应用体验</p>
+				<p style="font-size: 20px;line-height: 32px; letter-spacing: 2px;color: #696969;">
+					构建以用户为中心的统一门户，实现<br>企业业务场景化，深度整合业务与管<br> 理系统，构建完整的一站式企业业务<br>应用平台
+				</p>
+			</div>
+			<div class="article_content4_img">
+				<img src="imgs/img6_39.png">
+			</div>
+		</div>
+		<div id="5">
+			<div class="article_content5_img">
+				<img src="imgs/img6_42.png">
+			</div>
+			<div class="article_5_content">
+				<img src="index_img/img6.png">
+				<p style="font-size: 40px;margin: 0px;">灵活的移动办公平台</p>
+				<p style="font-size: 20px;line-height: 35px; letter-spacing: 2px;">
+					多移动入口(KK、钉钉)，提<br>供标准接入服务
+				</p>
+			</div>
+		</div>
+	</article>
+	<footer>
+		<div id="footer_lift">
+			<ul>
+				<li>EKP-大中型企业OA</li>
+				<li>FSSC-财务共享中心</li>
+				<li>KK-移动办公平台</li>
+				<li>EIS-成长型企业OA</li>
+			</ul>
+			<ul>
+				<li>KMS-知识管理平台</li>
+				<li>DOP-数字运营平台</li>
+				<li>AIP-智能办公平台</li>
+			</ul>
+			<ul>
+				<li>关于ACE</li>
+				<li>新闻中心</li>
+				<li>解决方案</li>
+				<li>百城巡展</li>
+			</ul>
+		</div>
+		<div id="footer_right">
+			<div class="r1">
+				<img src="imgs/img6_46.png"> 
+				<img class="rm1" src="imgs/img6_49.png">
+			</div>
+			<ul class="u21">
+				<li>联系电话:</li>
+				<li>请致电:0816-2816662</li>
+				<li>或关注ACE办公 公众号</li>
+			</ul>
+			<p style="font-size: 16px;line-height: 10px;letter-spacing: 2px;">版权所有……………………</p>
+			<p style="font-size: 16px;line-height: 10px;letter-spacing: 2px;">地址:四川省绵阳市涪城区临园路东段 邮编:621000</p>
+		</div>
+	</footer>
+</body>
+</html>
