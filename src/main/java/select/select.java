@@ -41,7 +41,9 @@ public class select extends HttpServlet implements Serializable {
 	
 	}
 
-	
+	public String see(String eyes){
+		return "light";
+	}
 	
 	
 		
