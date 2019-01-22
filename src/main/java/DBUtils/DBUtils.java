@@ -46,6 +46,13 @@ public class DBUtils {
 			throws SQLException {
 		return dataSource.getConnection();
 	}
+	public static void saveTable(){
+			//设置数据里连接参数
+			dataSource.setDriverClassName(driver);
+			dataSource.setUrl(url);
+			dataSource.setUsername(username);
+			dataSource.setPassword(password);
+	}
 	public static void close(Connection conn,
 			Statement stat,ResultSet rs) {
 		
