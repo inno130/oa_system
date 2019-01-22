@@ -29,8 +29,8 @@ public class select extends HttpServlet implements Serializable {
 			conn=DBUtils.getConn();
 			stat=conn.prepareStatement("select * from  person");
 			rs=stat.executeQuery();
+			request.setAttribute("gc", rs);
 			request.setAttribute("rs", rs);
-			request.setAttribute("gt", rs);
 			request.getRequestDispatcher("deptManger.jsp").forward(request, response);
 		} catch (Exception e) {
 			e.printStackTrace();
