@@ -42,6 +42,9 @@ public class DBUtils {
 		
 		
 	}
+	public String addSql(String sql){
+		return sql;
+	}
 	public static Connection getConn() 
 			throws SQLException {
 		return dataSource.getConnection();
