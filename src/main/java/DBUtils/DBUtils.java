@@ -12,7 +12,7 @@ import org.apache.commons.dbcp.BasicDataSource;
 
 
 public class DBUtils {
-
+	private String CC;
 	private static BasicDataSource dataSource;
 	static {
 		Properties prop = new Properties();
