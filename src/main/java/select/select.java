@@ -20,7 +20,7 @@ public class select extends HttpServlet implements Serializable {
 	private String DD;
 	private String GG;
 	private String EE;
-	private String CC;
+	private Integer CC;
 	private String FF;
 	private String HH;
 	@Override
