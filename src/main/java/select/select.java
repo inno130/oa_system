@@ -22,6 +22,7 @@ public class select extends HttpServlet implements Serializable {
 	private String EE;
 	private String CC;
 	private String FF;
+	private String MM;
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
