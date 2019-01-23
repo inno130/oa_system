@@ -19,6 +19,7 @@ import DBUtils.DBUtils;
 public class select extends HttpServlet implements Serializable {
 	private String DD;
 	private String GG;
+	private String EE;
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
